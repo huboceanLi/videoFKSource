@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'videoFKSource_Example' do
+  pod 'videoFKSource', :path => '../'
+
+  target 'videoFKSource_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
