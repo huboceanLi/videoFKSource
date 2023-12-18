@@ -1,0 +1,16 @@
+PODS:
+  - videoFKSource (0.1.0)
+
+DEPENDENCIES:
+  - videoFKSource (from `../`)
+
+EXTERNAL SOURCES:
+  videoFKSource:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  videoFKSource: 030c736c880b480a09dfe32cceb5d6688276b689
+
+PODFILE CHECKSUM: 290f52f52b72d4b1233f347900d1771261685ea4
+
+COCOAPODS: 1.13.0

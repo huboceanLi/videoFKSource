@@ -1,0 +1,6 @@
+framework module videoFKSource {
+  umbrella header "videoFKSource-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30E9F5F928705A8F1E2B5CED328A097B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		431F39B115C2FA81495D4272C82E59F4 /* videoFKSource-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 630F54BFE7C0FC8953BCA4EAAC84F378 /* videoFKSource-dummy.m */; };
+		47D4D9578391434F2ACEE55BCD3579EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4C8A598BFEEA3054B4106FD3568286B1 /* Pods-videoFKSource_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 159892D8230B9DDF787082D81C3DF5E2 /* Pods-videoFKSource_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5281AEEE76FA249711CF7F23946729C2 /* Pods-videoFKSource_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F735636BFF67F53ECB041D4E5CCF1CF4 /* Pods-videoFKSource_Tests-dummy.m */; };
+		765680D495FC6C5E50CFF193BABCB3B2 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = A8902F81F406A3471E0F6E049BA2030B /* ReplaceMe.m */; };
+		ACE4E67B964CF2923BF093BAF9860CEA /* Pods-videoFKSource_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA995F5F77782CE9565E45C2CA875AE /* Pods-videoFKSource_Example-dummy.m */; };
+		CD054C0ADEC504E88DF467C0456C7DDD /* videoFKSource-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2789174ED688DC6FEA1692FB11DAAC6 /* videoFKSource-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E14DE96093CE3052DB7F2A71D15388B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F8C12649BE005C896F44E3AFB4CE7508 /* Pods-videoFKSource_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CCBE10B6BC2A8A497CB80E15A2480A84 /* Pods-videoFKSource_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		514B77ACA2E30BACAF0EA14C305092DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F859CCBD72B8B810C957385B52D2BCE8;
+			remoteInfo = "Pods-videoFKSource_Example";
+		};
+		CF4EB5ED9ACC1AA2EE720E83730C1BED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72A463AB273FE10709D1036A6FBBBCE3;
+			remoteInfo = videoFKSource;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B9C0CD7AE63C1215BBB7D536AE39547 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		13CA00FDA8931FC75768CE9BC89B7EE0 /* Pods-videoFKSource_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-videoFKSource_Example-frameworks.sh"; sourceTree = "<group>"; };
+		159892D8230B9DDF787082D81C3DF5E2 /* Pods-videoFKSource_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-videoFKSource_Tests-umbrella.h"; sourceTree = "<group>"; };
+		172D37F59DCE361EF1BDD39E3A900CEA /* videoFKSource-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "videoFKSource-prefix.pch"; sourceTree = "<group>"; };
+		1BC5C82AD688AA59EDA9688EE4AB8D28 /* videoFKSource */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = videoFKSource; path = videoFKSource.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21DF29854B827BE253F6062DB0289C18 /* videoFKSource.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = videoFKSource.debug.xcconfig; sourceTree = "<group>"; };
+		3003D4357DE2702FF17EBA5AA010E59F /* Pods-videoFKSource_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-videoFKSource_Tests.modulemap"; sourceTree = "<group>"; };
+		32D76A4FAA6FF44652A7BFE00C5CA80E /* videoFKSource.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = videoFKSource.release.xcconfig; sourceTree = "<group>"; };
+		380DF454A9BE2D985552F6F435C3A0A8 /* Pods-videoFKSource_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-videoFKSource_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3E47B73D2FCFB4EE0650B80D11AE2CEE /* Pods-videoFKSource_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-videoFKSource_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4185B48321749B85C0A364F7F867FF34 /* Pods-videoFKSource_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-videoFKSource_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		53C005BB1D6BEC50D9D6D389123D3A9B /* Pods-videoFKSource_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-videoFKSource_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		58F49DC520DADC303FC1BA829B07D6F3 /* Pods-videoFKSource_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-videoFKSource_Example"; path = Pods_videoFKSource_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FEDF88B6DD9EE6D01CF013014D4FEB9 /* Pods-videoFKSource_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-videoFKSource_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6178BDB7107AE418148246CE03167199 /* Pods-videoFKSource_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-videoFKSource_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		630F54BFE7C0FC8953BCA4EAAC84F378 /* videoFKSource-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "videoFKSource-dummy.m"; sourceTree = "<group>"; };
+		6587F4EF13579CF526E9CC828CD9FBEF /* Pods-videoFKSource_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-videoFKSource_Tests"; path = Pods_videoFKSource_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		764756A26EAA22610F3AC82C40CDB2A4 /* videoFKSource.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = videoFKSource.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		87A290EB937C6890D1D9A89D8BFE2924 /* videoFKSource-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "videoFKSource-Info.plist"; sourceTree = "<group>"; };
+		8982E15763EEA86DC63065B5121C567A /* Pods-videoFKSource_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-videoFKSource_Example.modulemap"; sourceTree = "<group>"; };
+		9A5CB0739E3D09919FEF3510B2D10A3D /* Pods-videoFKSource_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-videoFKSource_Tests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A8902F81F406A3471E0F6E049BA2030B /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = videoFKSource/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		C2789174ED688DC6FEA1692FB11DAAC6 /* videoFKSource-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "videoFKSource-umbrella.h"; sourceTree = "<group>"; };
+		C3645714FF9B735B1FF79E801A91BC56 /* videoFKSource.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = videoFKSource.modulemap; sourceTree = "<group>"; };
+		C8C80EDC1030A9CE0C8731321CEDF2D8 /* Pods-videoFKSource_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-videoFKSource_Example-Info.plist"; sourceTree = "<group>"; };
+		CCBE10B6BC2A8A497CB80E15A2480A84 /* Pods-videoFKSource_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-videoFKSource_Example-umbrella.h"; sourceTree = "<group>"; };
+		CE33530EB644EBDF88937925D4E10909 /* Pods-videoFKSource_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-videoFKSource_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ED2900C4857EE29429AB80634CBBE685 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		EEA995F5F77782CE9565E45C2CA875AE /* Pods-videoFKSource_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-videoFKSource_Example-dummy.m"; sourceTree = "<group>"; };
+		EEFDFAB37D19E61B3F72876B1A96868E /* Pods-videoFKSource_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-videoFKSource_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F735636BFF67F53ECB041D4E5CCF1CF4 /* Pods-videoFKSource_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-videoFKSource_Tests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3153CF24489358612470E68C9D601ECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47D4D9578391434F2ACEE55BCD3579EF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61D785A1F9C8A61E65F47DCEE024F3E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E9F5F928705A8F1E2B5CED328A097B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0FB58AE58A9A775B971313511FA7D62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E14DE96093CE3052DB7F2A71D15388B6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D53E8EA55917464A2BF74B94F5B7A5B /* videoFKSource */ = {
+			isa = PBXGroup;
+			children = (
+				A8902F81F406A3471E0F6E049BA2030B /* ReplaceMe.m */,
+				E127381AC989B10B6F662E5A64D59F78 /* Pod */,
+				D239CA12FECBDADB5FA706C457CA6E5B /* Support Files */,
+			);
+			name = videoFKSource;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8D8DC232A13FA78106CDBF730F8255DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58F49DC520DADC303FC1BA829B07D6F3 /* Pods-videoFKSource_Example */,
+				6587F4EF13579CF526E9CC828CD9FBEF /* Pods-videoFKSource_Tests */,
+				1BC5C82AD688AA59EDA9688EE4AB8D28 /* videoFKSource */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5E6A55EDA58FAFF3358EA893989BBBB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D53E8EA55917464A2BF74B94F5B7A5B /* videoFKSource */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C5E6A55EDA58FAFF3358EA893989BBBB /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				8D8DC232A13FA78106CDBF730F8255DA /* Products */,
+				EC0CAE5DC872DCFC159A03B754EA288A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D239CA12FECBDADB5FA706C457CA6E5B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3645714FF9B735B1FF79E801A91BC56 /* videoFKSource.modulemap */,
+				630F54BFE7C0FC8953BCA4EAAC84F378 /* videoFKSource-dummy.m */,
+				87A290EB937C6890D1D9A89D8BFE2924 /* videoFKSource-Info.plist */,
+				172D37F59DCE361EF1BDD39E3A900CEA /* videoFKSource-prefix.pch */,
+				C2789174ED688DC6FEA1692FB11DAAC6 /* videoFKSource-umbrella.h */,
+				21DF29854B827BE253F6062DB0289C18 /* videoFKSource.debug.xcconfig */,
+				32D76A4FAA6FF44652A7BFE00C5CA80E /* videoFKSource.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/videoFKSource";
+			sourceTree = "<group>";
+		};
+		DBC4771782D9CD124056ADCB19CCAB4C /* Pods-videoFKSource_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8982E15763EEA86DC63065B5121C567A /* Pods-videoFKSource_Example.modulemap */,
+				6178BDB7107AE418148246CE03167199 /* Pods-videoFKSource_Example-acknowledgements.markdown */,
+				4185B48321749B85C0A364F7F867FF34 /* Pods-videoFKSource_Example-acknowledgements.plist */,
+				EEA995F5F77782CE9565E45C2CA875AE /* Pods-videoFKSource_Example-dummy.m */,
+				13CA00FDA8931FC75768CE9BC89B7EE0 /* Pods-videoFKSource_Example-frameworks.sh */,
+				C8C80EDC1030A9CE0C8731321CEDF2D8 /* Pods-videoFKSource_Example-Info.plist */,
+				CCBE10B6BC2A8A497CB80E15A2480A84 /* Pods-videoFKSource_Example-umbrella.h */,
+				3E47B73D2FCFB4EE0650B80D11AE2CEE /* Pods-videoFKSource_Example.debug.xcconfig */,
+				380DF454A9BE2D985552F6F435C3A0A8 /* Pods-videoFKSource_Example.release.xcconfig */,
+			);
+			name = "Pods-videoFKSource_Example";
+			path = "Target Support Files/Pods-videoFKSource_Example";
+			sourceTree = "<group>";
+		};
+		DBF95E3EEA0E99A837D3538C6556473E /* Pods-videoFKSource_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3003D4357DE2702FF17EBA5AA010E59F /* Pods-videoFKSource_Tests.modulemap */,
+				CE33530EB644EBDF88937925D4E10909 /* Pods-videoFKSource_Tests-acknowledgements.markdown */,
+				EEFDFAB37D19E61B3F72876B1A96868E /* Pods-videoFKSource_Tests-acknowledgements.plist */,
+				F735636BFF67F53ECB041D4E5CCF1CF4 /* Pods-videoFKSource_Tests-dummy.m */,
+				9A5CB0739E3D09919FEF3510B2D10A3D /* Pods-videoFKSource_Tests-Info.plist */,
+				159892D8230B9DDF787082D81C3DF5E2 /* Pods-videoFKSource_Tests-umbrella.h */,
+				53C005BB1D6BEC50D9D6D389123D3A9B /* Pods-videoFKSource_Tests.debug.xcconfig */,
+				5FEDF88B6DD9EE6D01CF013014D4FEB9 /* Pods-videoFKSource_Tests.release.xcconfig */,
+			);
+			name = "Pods-videoFKSource_Tests";
+			path = "Target Support Files/Pods-videoFKSource_Tests";
+			sourceTree = "<group>";
+		};
+		E127381AC989B10B6F662E5A64D59F78 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0B9C0CD7AE63C1215BBB7D536AE39547 /* LICENSE */,
+				ED2900C4857EE29429AB80634CBBE685 /* README.md */,
+				764756A26EAA22610F3AC82C40CDB2A4 /* videoFKSource.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		EC0CAE5DC872DCFC159A03B754EA288A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBC4771782D9CD124056ADCB19CCAB4C /* Pods-videoFKSource_Example */,
+				DBF95E3EEA0E99A837D3538C6556473E /* Pods-videoFKSource_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		234410F9A47C83A1AE327A5079F2978F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C8A598BFEEA3054B4106FD3568286B1 /* Pods-videoFKSource_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC318378A3B544B44CC9FE139A68F169 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8C12649BE005C896F44E3AFB4CE7508 /* Pods-videoFKSource_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF4D75160B352BC2B7E332B5A51E6BD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD054C0ADEC504E88DF467C0456C7DDD /* videoFKSource-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		72A463AB273FE10709D1036A6FBBBCE3 /* videoFKSource */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86654B751A0CAB65A16DD23AED8C6CCE /* Build configuration list for PBXNativeTarget "videoFKSource" */;
+			buildPhases = (
+				BEF4D75160B352BC2B7E332B5A51E6BD /* Headers */,
+				D4ABDBEC89678E0CC0154F6D30A7277C /* Sources */,
+				3153CF24489358612470E68C9D601ECB /* Frameworks */,
+				81116ADA6CCF355B7820004B41A231C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = videoFKSource;
+			productName = videoFKSource;
+			productReference = 1BC5C82AD688AA59EDA9688EE4AB8D28 /* videoFKSource */;
+			productType = "com.apple.product-type.framework";
+		};
+		A0F839B47A4E91C5E3B8AA5495A127A3 /* Pods-videoFKSource_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34A807D1858654985839DC74EE64A793 /* Build configuration list for PBXNativeTarget "Pods-videoFKSource_Tests" */;
+			buildPhases = (
+				234410F9A47C83A1AE327A5079F2978F /* Headers */,
+				F37B44B32D51C87F6011360AC3A7C7B8 /* Sources */,
+				61D785A1F9C8A61E65F47DCEE024F3E6 /* Frameworks */,
+				B086084B36D23411290ACA66C2602516 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A8E720414629B36E2EE5BEDB1057786 /* PBXTargetDependency */,
+			);
+			name = "Pods-videoFKSource_Tests";
+			productName = Pods_videoFKSource_Tests;
+			productReference = 6587F4EF13579CF526E9CC828CD9FBEF /* Pods-videoFKSource_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		F859CCBD72B8B810C957385B52D2BCE8 /* Pods-videoFKSource_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3360157EBFF62BBD95E29F4AA4289C9F /* Build configuration list for PBXNativeTarget "Pods-videoFKSource_Example" */;
+			buildPhases = (
+				AC318378A3B544B44CC9FE139A68F169 /* Headers */,
+				9EECFCA70CE1745599006652773621FF /* Sources */,
+				D0FB58AE58A9A775B971313511FA7D62 /* Frameworks */,
+				D4EFBD6B590F4D8D42351F261215E38C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0F368E0A81E7BA115346A8E2F822ADD /* PBXTargetDependency */,
+			);
+			name = "Pods-videoFKSource_Example";
+			productName = Pods_videoFKSource_Example;
+			productReference = 58F49DC520DADC303FC1BA829B07D6F3 /* Pods-videoFKSource_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8D8DC232A13FA78106CDBF730F8255DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F859CCBD72B8B810C957385B52D2BCE8 /* Pods-videoFKSource_Example */,
+				A0F839B47A4E91C5E3B8AA5495A127A3 /* Pods-videoFKSource_Tests */,
+				72A463AB273FE10709D1036A6FBBBCE3 /* videoFKSource */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81116ADA6CCF355B7820004B41A231C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B086084B36D23411290ACA66C2602516 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4EFBD6B590F4D8D42351F261215E38C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9EECFCA70CE1745599006652773621FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE4E67B964CF2923BF093BAF9860CEA /* Pods-videoFKSource_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4ABDBEC89678E0CC0154F6D30A7277C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				765680D495FC6C5E50CFF193BABCB3B2 /* ReplaceMe.m in Sources */,
+				431F39B115C2FA81495D4272C82E59F4 /* videoFKSource-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F37B44B32D51C87F6011360AC3A7C7B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5281AEEE76FA249711CF7F23946729C2 /* Pods-videoFKSource_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A8E720414629B36E2EE5BEDB1057786 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-videoFKSource_Example";
+			target = F859CCBD72B8B810C957385B52D2BCE8 /* Pods-videoFKSource_Example */;
+			targetProxy = 514B77ACA2E30BACAF0EA14C305092DF /* PBXContainerItemProxy */;
+		};
+		B0F368E0A81E7BA115346A8E2F822ADD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = videoFKSource;
+			target = 72A463AB273FE10709D1036A6FBBBCE3 /* videoFKSource */;
+			targetProxy = CF4EB5ED9ACC1AA2EE720E83730C1BED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		173D4084D3F568B8D7E0BD23BEF4F60B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E47B73D2FCFB4EE0650B80D11AE2CEE /* Pods-videoFKSource_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-videoFKSource_Example/Pods-videoFKSource_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-videoFKSource_Example/Pods-videoFKSource_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		23233469CF5AC2AA8EAADB899A66C887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21DF29854B827BE253F6062DB0289C18 /* videoFKSource.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/videoFKSource/videoFKSource-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/videoFKSource/videoFKSource-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/videoFKSource/videoFKSource.modulemap";
+				PRODUCT_MODULE_NAME = videoFKSource;
+				PRODUCT_NAME = videoFKSource;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D04A208BFAAEE9D2CC6556D7DA0F8C9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32D76A4FAA6FF44652A7BFE00C5CA80E /* videoFKSource.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/videoFKSource/videoFKSource-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/videoFKSource/videoFKSource-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/videoFKSource/videoFKSource.modulemap";
+				PRODUCT_MODULE_NAME = videoFKSource;
+				PRODUCT_NAME = videoFKSource;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EF73FA48FEF2A3486B24B06437E5A9FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FEDF88B6DD9EE6D01CF013014D4FEB9 /* Pods-videoFKSource_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-videoFKSource_Tests/Pods-videoFKSource_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-videoFKSource_Tests/Pods-videoFKSource_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F0E2D1CE13B80265381A06FC88D47ADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 380DF454A9BE2D985552F6F435C3A0A8 /* Pods-videoFKSource_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-videoFKSource_Example/Pods-videoFKSource_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-videoFKSource_Example/Pods-videoFKSource_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FF791E8D4A64824DE6D5C510244DF4B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53C005BB1D6BEC50D9D6D389123D3A9B /* Pods-videoFKSource_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-videoFKSource_Tests/Pods-videoFKSource_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-videoFKSource_Tests/Pods-videoFKSource_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3360157EBFF62BBD95E29F4AA4289C9F /* Build configuration list for PBXNativeTarget "Pods-videoFKSource_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				173D4084D3F568B8D7E0BD23BEF4F60B /* Debug */,
+				F0E2D1CE13B80265381A06FC88D47ADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34A807D1858654985839DC74EE64A793 /* Build configuration list for PBXNativeTarget "Pods-videoFKSource_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF791E8D4A64824DE6D5C510244DF4B2 /* Debug */,
+				EF73FA48FEF2A3486B24B06437E5A9FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86654B751A0CAB65A16DD23AED8C6CCE /* Build configuration list for PBXNativeTarget "videoFKSource" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23233469CF5AC2AA8EAADB899A66C887 /* Debug */,
+				D04A208BFAAEE9D2CC6556D7DA0F8C9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
